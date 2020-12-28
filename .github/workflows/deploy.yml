@@ -37,7 +37,7 @@ jobs:
         run: python generate.py
 
       - name: Deploy to Netlify
-        run: netlify deploy --prod
+        run: netlify deploy --prod --dir .
         working-directory: Lean/_docs
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
