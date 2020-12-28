@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Netlify CLI
         run: |
-          yarn global add netlify
+          yarn global add netlify-cli
           echo "$(yarn global bin)" >> $GITHUB_PATH
 
       - name: Generate API documentation
