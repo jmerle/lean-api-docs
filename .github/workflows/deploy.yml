@@ -37,7 +37,7 @@ jobs:
       #   run: python generate.py
 
       - name: Deploy to Netlify
-        run: netlify deploy --prod --dir Lean/_docs
+        # run: netlify deploy --prod --dir Lean/_docs
         run: netlify deploy --prod --dir deprecated
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
