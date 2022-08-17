@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This project is deprecated in favor of QuantConnect's official API docs, which is generated in the [QuantConnect/Lean.Reference](https://github.com/QuantConnect/Lean.Reference) repository and hosted at [https://www.lean.io/docs/v2/lean-engine/class-reference/index.html](https://www.lean.io/docs/v2/lean-engine/class-reference/index.html). Old links to [https://lean-api-docs.netlify.app/](https://lean-api-docs.netlify.app/) will automatically redirect to the same page in the official docs.
+
 # Lean API Docs
 
 [![Deploy Status](https://github.com/jmerle/lean-api-docs/workflows/Deploy/badge.svg)](https://github.com/jmerle/lean-api-docs/actions?query=workflow%3ADeploy)
